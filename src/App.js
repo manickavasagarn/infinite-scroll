@@ -18,6 +18,8 @@ function App() {
     setcard([...tempcard]);
   };
 
+
+  
   const handlescroll = async () => {
     if (
       window.innerHeight + document.documentElement.scrollTop + 1 >=
